@@ -4,9 +4,11 @@
 package LabI;
 
 public class Library {
-	
+
 	public static void main(String[] args) {
-		System.out.println("Hello, World!");
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
+			System.out.println("Hello, World!");
 	}
 	
     public boolean someLibraryMethod() {
